@@ -1,0 +1,7 @@
+- hosts: all
+  vars:
+    name: devops
+    team: kaizen
+  tasks:
+  - debug: msg="Hello {{name}}, you are {{team}}"
+
