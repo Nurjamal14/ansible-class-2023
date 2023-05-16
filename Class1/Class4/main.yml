@@ -1,6 +1,8 @@
 - hosts: webserver
-  # vars:
-  #   php_version: 74
+  vars:
+    db_name: adilet
+    db_user: adilet
+    db_password: adilet123
   roles:
     - apache
     - packages
