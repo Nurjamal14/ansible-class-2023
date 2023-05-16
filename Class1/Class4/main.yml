@@ -1,0 +1,9 @@
+- hosts: webserver
+  # vars:
+  #   php_version: 74
+  roles:
+    - apache
+    - packages
+    - php
+    - wordpress
+    - database
