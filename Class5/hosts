@@ -1,0 +1,9 @@
+[web]
+
+master ansible_host=134.209.73.78
+worker ansible_host=165.22.13.237
+
+worker2 ansible_host=44.201.73.158 ansible_user=ec2-user
+worker3 ansible_host=3.85.221.58 ansible_user=ec2-user
+
+worker4 ansible_host=35.193.136.122 ansible_user=kaizen_techacademy
