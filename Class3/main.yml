@@ -1,4 +1,4 @@
-- hosts: all
+- hosts: webserver
   vars:
     php_version: 74
   tasks:
